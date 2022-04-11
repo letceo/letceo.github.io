@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<!-- Metas and SEO -->
-	<meta name="description" content="" />
+	<meta name="description" content="Creating Serious Games in a not so Serious Way. Tem uma ideia para um jogo educativo? Nós temos a solução. Com uma equipa multimédia de programadores, designers e narrativas, conseguimos tornar real a sua ideia para qualquer tipo de jogo educacional ou Serious Games. Contacte-nos em seriously.lgp@gmail.com." />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Seriously LGP | Webdesign Department" />
@@ -24,13 +24,19 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+	<!-- Change color of Navbar on scroll-->
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+		});
+  	</script>
 
 
 </head>
 <body>
 		<header>
 			<!-- Navbar -->
-			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent navbar-default">
 				<div class="container-fluid">
 				<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo seriously" width="100"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +48,13 @@
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Serviços</a>
+						<a class="nav-link" href="#portfolio">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#team">Equipa</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Sobre</a>
@@ -63,7 +72,7 @@
 			<!-- Header -->
 			<div class="banner container-fluid" style="margin: 0%; padding: 0%;">
 				<div class="banner-overlay">
-					<div class="jumbotron text-white jumbotron-image .shadow-none" style="background-image: url(images/banner.png);">
+					<div class="jumbotron text-white jumbotron-image shadow-none" style="background-image: url(images/banner.png);">
 						<div class="gradient-banner">
 						<div class="headline-text">
 							<h2 class="mb-4">Seriously</h2>
@@ -81,6 +90,30 @@
 					</button>
 				  </div>
 				</div>
-		</header
+			</header>
+
+			<div class="conteudo">
+				<div class="container container-fluid portfolio" id="portfolio">
+					<h2>Portfolio</h2>
+					<div class="row">
+						<div class="col-8 projeto1-img">
+							<img src="images/boat.png" alt="Boat sailing in the sea" width="500">
+						</div>
+						<div class="col-4 projeto1-desc"></div>
+					</div>
+				</div>
+				<div class="container container-fluid portfolio" id="team">
+					<h2>Team</h2>
+					<div class="row">
+						<div class="col-8 team-menu">
+							<div class="row"></div>
+							<img src="images/boat.png" alt="Boat sailing in the sea" width="500">
+						</div>
+						<div class="col-4 projeto1-desc"></div>
+					</div>
+				</div>
+			</div>	
+
+			</div>
 	</body>
 </html>
