@@ -6,7 +6,7 @@ body{
 
 html, body{
     width: 100%;
-    overflow-x:hidden;
+    overflow-x:hiddens;
 }
   
 .container-fluid{
@@ -167,15 +167,15 @@ body{min-height:200vh;}
     font-weight: 700;
 }
 
+/*Footer*/
 .footer{
-    background-color:#138a7d;
+    background-color:#0e7369;
     width: 100%;
     margin-bottom: 0%;
     padding-bottom: 0%;
     bottom: 0%;
 }
 
-/*Footer*/
 .footer-content{
 padding:2%;
 }
@@ -211,8 +211,10 @@ padding:2%;
 }
 
 .footer-nav ul li{
-    display: inline;
+    display: inline-block;
 }
+
+
 /*------------------------*MEDIA QUERIES*--------------------------------*/
 
 @media (max-width:575px){
