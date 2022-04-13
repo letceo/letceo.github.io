@@ -30,7 +30,7 @@ html, body{
 }
 
   .navbar .container-fluid.scrolled {
-    background: #0e7369!important;
+    background: #1a5345!important;
     transition: background-color 200ms linear;
   }
 
@@ -168,7 +168,7 @@ body{min-height:200vh;}
 
 /*Footer*/
 .footer{
-    background-color:#0e7369;
+    background-color:#1a5345;
     width: 100%;
     margin-bottom: 0%;
     padding-bottom: 0%;
