@@ -21,16 +21,23 @@ html, body{
 }
 
 .navbar .container-fluid {
-    /*background-color:#3d6694!important;*/
+    /*background-color: #256253!important;*/
     padding:0.5rem;
     padding-left: 1.5em;
     font-weight: 500;
     text-transform: uppercase;
+    transition: 1.5s ease-in;
 }
+
+  .navbar .container-fluid.scrolled {
+    background: #0e7369!important;
+    transition: background-color 200ms linear;
+  }
 
 .logo{
     max-width: 150%;
 }
+
 
 .nav-link {
     color:white!important;
@@ -64,8 +71,6 @@ html, body{
     border:none;
 }
 
-
-
 body{min-height:200vh;}
 .navbar .container-fluid{
   transition:500ms ease;
@@ -73,10 +78,6 @@ body{min-height:200vh;}
 }
 .navbar .container-fluid.scrolled{
   background:#000;
-}
-
-.collapse .navbar-collapse{
-    background-color: blue;
 }
 
 /*Header*/
@@ -281,6 +282,23 @@ padding:2%;
         margin-left: 2%!important;
     }
 }
+
+/* Mobile Phones*/
+@media (max-width: 991.80px) {
+    .navbar-collapse{
+        background-color: #ffffffb8;
+        width: 100%;
+        margin-left: 0!;
+        margin-right: 0%;
+        padding-left: 1.5rem;
+    }
+
+    .nav-link{
+        color: #0e7369!important;
+    }
+    
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .logo-footer img{
