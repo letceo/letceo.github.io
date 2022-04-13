@@ -30,7 +30,7 @@ html, body{
 }
 
   .navbar .container-fluid.scrolled {
-    background: #1a5345!important;
+    background: #0d7369!important;
     transition: background-color 200ms linear;
   }
 
@@ -72,13 +72,7 @@ html, body{
 }
 
 body{min-height:200vh;}
-.navbar .container-fluid{
-  transition:500ms ease;
-  background:transparent;
-}
-.navbar .container-fluid.scrolled{
-  background:#000;
-}
+
 
 /*Header*/
 
@@ -168,7 +162,7 @@ body{min-height:200vh;}
 
 /*Footer*/
 .footer{
-    background-color:#1a5345;
+    background-color:#0d7369;
     width: 100%;
     margin-bottom: 0%;
     padding-bottom: 0%;
@@ -286,7 +280,7 @@ padding:2%;
 /* Mobile Phones*/
 @media (max-width: 991.80px) {
     .navbar-collapse{
-        background-color: #ffffffb8;
+        background-color: #0d7369!important;
         width: 100%;
         margin-left: 0!;
         margin-right: 0%;
@@ -294,7 +288,7 @@ padding:2%;
     }
 
     .nav-link{
-        color: #0e7369!important;
+        color: white!important;
     }
     
 }
