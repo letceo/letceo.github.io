@@ -3,6 +3,8 @@
 <head>
 	<!-- STYLE -->
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
 
 	<!-- Metas and SEO -->
 	<meta name="description" content="Creating Serious Games in a not so Serious Way. Tem uma ideia para um jogo educativo? Nós temos a solução. Com uma equipa multimédia de programadores, designers e narrativas, conseguimos tornar real a sua ideia para qualquer tipo de jogo educacional ou Serious Games. Contacte-nos em seriously.lgp@gmail.com." />
@@ -50,6 +52,15 @@
 
 
 	<!-- Change color of Navbar on scroll-->
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $(".navbar .container-fluid");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			});
+		});
+	</script>
+	</head>
 </head>
 <body>
 		<header>
@@ -58,7 +69,7 @@
 				<div class="container-fluid">
 					<a class="navbar-brand" href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="100"></a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon" style="color:white;"></span>
+						<span class="navbar-toggler-icon  navbar-dark-toggler-icon-bg" style="color:white;"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 						<ul class="navbar-nav">
