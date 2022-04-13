@@ -38,7 +38,6 @@ html, body{
     max-width: 150%;
 }
 
-
 .nav-link {
     color:white!important;
     font-family: 'Poppins', sans-serif;
@@ -291,6 +290,9 @@ padding:2%;
         color: white!important;
     }
     
+    .navbar-toggler-icon:focus .navbar .container-fluid{
+        background: #0d7369!important;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
