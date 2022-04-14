@@ -170,15 +170,23 @@ body{min-height:200vh;}
 .portfolio{
     width: 100%;
     margin-bottom: 3%;
+    margin-top: 0.5%;
 }
 
-.projeto1-img{
-    padding:0.5%;
-    background-color:#dee2ec;
+.proj-desc{
+    display: none;
 }
 
-.projeto1-img img{
-    padding: 2%;
+.projeto1-img:hover .proj-desc{
+    display: block;
+}
+
+.projeto1-img:hover .img-proj{
+    display: none;
+}
+
+.projeto1-desc{
+    width: 100%;
 }
 
 .conteudo h2{
@@ -258,9 +266,6 @@ padding:2%;
     color:white!important;
     
 }
-
-
-
 
 
 
