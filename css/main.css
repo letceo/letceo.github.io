@@ -26,16 +26,7 @@ html, body{
     padding-left: 1.5em;
     font-weight: 500;
     text-transform: uppercase;
-    transition: 1.5s ease-in;
-}
-
-  .navbar .container-fluid.scrolled {
-    background: #0d7369!important;
-    transition: background-color 200ms linear;
-  }
-
-.logo{
-    max-width: 150%;
+    transition: 0.5s ease-in;
 }
 
 .nav-link {
@@ -69,6 +60,43 @@ html, body{
 .navbar-light .navbar-toggler {
     border:none;
 }
+
+    /*Navbar change color of header on scroll and logo*/
+    .navbar .container-fluid.scrolled {
+        background: white!important;
+        transition: 0.5s ease-in;
+      }
+    
+      .navbar .container-fluid.scrolled .logo2{
+        display: inline;
+      }
+    
+      .navbar .container-fluid.scrolled .logo1{
+        display: none;
+      }
+    
+      .navbar .container-fluid.scrolled .nav-link{
+        color:#0d7369!important
+      }
+    
+    .logo1{
+        max-width: 150%;
+        display: inline;
+    }
+    
+    .logo2{
+        display: none;
+    }
+    
+    .navbar-brand:hover .logo2{
+        display: inline;
+        transition: background-color 200ms linear;
+    }
+    
+    .navbar-brand:hover .logo1{
+        display: none;transition: background-color 200ms linear;
+    }
+
 
 body{min-height:200vh;}
 
@@ -290,8 +318,17 @@ padding:2%;
         color: white!important;
     }
     
-    .navbar-toggler-icon:focus .navbar .container-fluid{
+    .navbar .container-fluid{
         background: #0d7369!important;
+    }
+
+    .navbar .container-fluid.scrolled .nav-link{
+        color:#0d7369!important
+      }
+
+
+    .navbar .container-fluid.scrolled .navbar-collapse{
+        background: white!important;
     }
 }
 
