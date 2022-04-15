@@ -248,6 +248,12 @@ body{min-height:200vh;}
     text-align: center;
 }
 
+.team-stat h5{
+    color: black;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+
 .team-mobile{
     padding: 0%;
     margin: auto;
@@ -274,6 +280,40 @@ body{min-height:200vh;}
     border:solid #94d6cd 3px;
 }
 
+.team-desc ul{
+    list-style-type: none;
+    margin-top: 3%;
+    color: black;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.team-desc li{
+margin-bottom: 1.5%;
+}
+.team-geral img{
+    margin-top: 8%;
+}
+
+.team-geral h4{
+    color: black;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.team-text{
+    padding: 2%;
+    text-align: justify;
+}
+ /*Character Desc shows on each pic*/
+
+ .team1:hover .team-geral{
+    display: hidden;
+}
+
+.team1:hover .dteam1{
+    display: block;
+}
 
 /*------------------------Footer------------------------*/
 .footer{
