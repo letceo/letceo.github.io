@@ -78,6 +78,10 @@ html, body{
       .navbar .container-fluid.scrolled .nav-link{
         color:#0d7369!important
       }
+
+      .navbar .container-fluid.scrolled .nav-link::after{
+        background:#0d7369!important
+      }
     
     .logo1{
         max-width: 150%;
@@ -166,6 +170,8 @@ body{min-height:200vh;}
     margin-right: 15%;
     margin-top: 0%;
 }
+
+
 /*PROJETO*/
 .portfolio{
     width: 100%;
@@ -194,6 +200,26 @@ body{min-height:200vh;}
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+
+/*TEAM*/
+
+.meet-team{
+    margin-top: 5%;
+}
+.team-menu .row{
+    --bs-gutter-x: 0.5rem!important;
+    margin-bottom: 0.5rem;
+}
+
+.team-prev{
+    border: solid #dee2ec 5px!important ;
+}
+
+.team-prev:hover{
+    border: solid #94d6cd 5px!important ;
+    transition: 0.1s ease-in;
+}
+
 
 /*Footer*/
 .footer{
@@ -323,6 +349,15 @@ padding:2%;
         color: white!important;
     }
     
+    .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #0d7369;
+        transition: width .3s;
+    }
+
     .navbar .container-fluid{
         background: #0d7369!important;
     }
