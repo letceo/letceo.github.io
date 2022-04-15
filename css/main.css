@@ -1,4 +1,4 @@
-/*GERAL*/
+/*------------------------GERAL------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
@@ -13,7 +13,7 @@ html, body{
     width: 100%;
 }
 
-/*Navbar*/
+/*------------------------Navbar------------------------*/
 
 .navbar{
     padding-top:0%!important;
@@ -69,6 +69,7 @@ html, body{
     
       .navbar .container-fluid.scrolled .logo2{
         display: inline;
+        
       }
     
       .navbar .container-fluid.scrolled .logo1{
@@ -105,7 +106,7 @@ html, body{
 body{min-height:200vh;}
 
 
-/*Header*/
+/*------------------------Header------------------------*/
 
 .banner .container-fluid{
     width: 100%;
@@ -172,7 +173,7 @@ body{min-height:200vh;}
 }
 
 
-/*PROJETO*/
+/*------------------------PROJETO------------------------*/
 .portfolio{
     width: 100%;
     margin-bottom: 3%;
@@ -201,7 +202,12 @@ body{min-height:200vh;}
     font-weight: 700;
 }
 
-/*TEAM*/
+.titulo-proj {
+    background-color: #dee2ec;
+    box-shadow: 4px 4px #c7ccd7;
+}
+
+/*------------------------TEAM------------------------*/
 
 .meet-team{
     margin-top: 5%;
@@ -218,10 +224,58 @@ body{min-height:200vh;}
 .team-prev:hover{
     border: solid #94d6cd 5px!important ;
     transition: 0.1s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.team-stat{
+    background-color: #dee2ec;
+}
+
+.pic-team{
+    background-color: white;
+    max-width: 95%;
+    margin: 6% auto;
+
+}
+
+.pic-team img{
+    width: 100%;
+}
+
+.team-stat h4{
+    color: #0d7369;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+
+.team-mobile{
+    padding: 0%;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.team-mobile .btn-primary{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0.7em 4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    color:white;
+    background-color: #0d7369;
+    border-radius: 50px;
+    font-size:small;
+    border: none;
+    border:solid white 3px;
+}
+
+.team-mobile .btn-primary:hover{
+    background-color:#0c5d55;
+    border:solid #94d6cd 3px;
 }
 
 
-/*Footer*/
+/*------------------------Footer------------------------*/
 .footer{
     background-color:#0d7369;
     width: 100%;
@@ -298,7 +352,10 @@ padding:2%;
 /*------------------------*MEDIA QUERIES*--------------------------------*/
 
 @media (max-width:575px){
-    
+
+    .navbar .container-fluid{
+        padding-left: 1.5em!important;
+    }
     .headline-text h2{
         font-size: 3em;
         font-weight: bold;
@@ -332,6 +389,23 @@ padding:2%;
     
     .footer-content{
         margin-left: 2%!important;
+    }
+
+    .conteudo .container, .container-fluid{
+        padding-left: 0%!important;
+        padding-right: 0%!important;
+    }
+
+    .team-stat{
+        display: none;
+    }
+
+    .team-mobile{
+        display: block;
+    }
+
+    .logo-footer{
+        margin-top: 10%;
     }
 }
 
@@ -376,6 +450,14 @@ padding:2%;
 @media (min-width: 576px) { 
     .logo-footer img{
         width: 100%;
+    }
+
+    .pic-stat{
+        display: block;
+    }
+
+    .team-mobile{
+        display: none;
     }
 }
 
