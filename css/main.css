@@ -307,7 +307,7 @@ margin-bottom: 1.5%;
 }
  /*Character Desc shows on each pic*/
 
- .team1:hover .team-geral{
+.team1:hover .team-geral{
     display: hidden;
 }
 
@@ -436,7 +436,7 @@ padding:2%;
         padding-right: 0%!important;
     }
 
-    .team-stat{
+    .team-index{
         display: none;
     }
 
@@ -492,7 +492,7 @@ padding:2%;
         width: 100%;
     }
 
-    .pic-stat{
+    .team-index{
         display: block;
     }
 
