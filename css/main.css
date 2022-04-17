@@ -176,8 +176,8 @@ body{min-height:200vh;}
 /*------------------------PROJETO------------------------*/
 .portfolio{
     width: 100%;
-    margin-bottom: 3%;
-    margin-top: 0.5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .proj-desc{
@@ -205,6 +205,46 @@ body{min-height:200vh;}
 .titulo-proj {
     background-color: #dee2ec;
     box-shadow: 4px 4px #c7ccd7;
+}
+
+/*------------------------PROJETO------------------------*/
+.servicos{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.servicos h2{
+    border-bottom: solid #b3dfd0 3px;
+    margin-bottom: 3%;
+}
+
+.services-cont{
+    border-radius: 50px;
+    background-color:#f8f9fa;
+    width: 80%;
+    margin-right:2%;
+}
+
+.servicos img{
+    margin-top: 10%;
+    background-color:#f8f9fa ;
+}
+
+.servicos h4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.services-card{
+    background-color:#f8f9fa ;
+    padding-top: 4%
+}
+
+.services-desc{
+    text-align: justify;
+    padding-left: 2%;
 }
 
 /*------------------------TEAM------------------------*/
@@ -307,12 +347,16 @@ margin-bottom: 1.5%;
 }
  /*Character Desc shows on each pic*/
 
-.team1:hover .team-geral{
-    display: hidden;
+.team-menu .team1:hover .team-geral{
+    display: none;
 }
 
-.team1:hover .dteam1{
+.team-menu .team1:hover .dteam1{
     display: block;
+}
+
+.team-stat{
+    margin-bottom:5%;
 }
 
 /*------------------------Footer------------------------*/
@@ -322,6 +366,7 @@ margin-bottom: 1.5%;
     margin-bottom: 0%;
     padding-bottom: 0%;
     bottom: 0%;
+    margin-top: 5%;
 }
 
 .footer-content{
