@@ -59,7 +59,13 @@
 				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 			});
 		});
+
+	//Show Team Members-->
+	//
+
+
 	</script>
+
 
 
 </head>
@@ -110,21 +116,21 @@
 								<img src="images/icons/logo.svg" alt="Seriously Logotipo" width="100%">
 							</div>
 							<p class="mb-4">Creating Serious Games in a not so Serious Way.</p>
-							<a class="btn btn-primary">PROJETOS</a>
+							<ul class="footer-social">
+								<li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+								<li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+								<li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+								<li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+							</ul>
+
+							</div>
 						</div></div>
 					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					  <span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					  <span class="visually-hidden">Next</span>
-					</button>
 				  </div>
 				</div>
 		</header>
 		<div class="conteudo">
+			
 				<div class="container container-fluid portfolio" id="portfolio">
 					<h2>Portfolio</h2>
 					<div class="row">
@@ -136,7 +142,7 @@
 							<div class="row"><div class="col img-proj"><img src="images/boat.png" alt="Boat sailing in the sea" width="100%"></div></div>
 							<div class="row"><div class="col img-proj"><img src="images/boat.png" alt="Boat sailing in the sea" width="100%"></div></div>
 							<div class="row"><div class="col img-proj"><img src="images/boat.png" alt="Boat sailing in the sea" width="100%"></div></div>
-							<div class="col proj-desc"><p><b>Clziente:</b> FLUP</p>
+							<div class="col proj-desc"><p><b>Cliente:</b> FLUP</p>
 								<p><b>Descrição do Projeto:</b></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis lacinia enim eget ornare.</p>
 								<p>Duis pellentesque lorem vitae dictum mollis. Morbi imperdiet, diam id volutpat facilisis, enim turpis porttitor enim, id volutpat tortor nibh nec erat.</p>
@@ -144,24 +150,52 @@
 							
 					</div>
 				</div>
+				</div><div>
+				<div class="container container-fluid servicos" id="servicos">
+					<h2>Our Services</h2>
+					<div class="row">
+						<div class="col-md-3 col-6 services-cont">
+							<img src="images/idea.png" alt="Boat sailing in the sea" width="100%">
+							<h4>Ideation</h4>
+							<div class="services-desc"><p>You have an idea for a game? Want to create a fun learning experience? We can make your vision come true! </p><p>From the conception of the game, mmechanics, design and narrative. You don't even have to name it and we'll create it!.</p></div>
+						</div>
+						<div class="col-md-3 col-6 services-cont">
+							<img src="images/design.png" alt="Boat sailing in the sea" width="100%">
+							<h4>Design</h4>
+							<div class="services-desc"><p>We have a team who focuses on creating the entirety of the assets needed,from 2D to 3D, fulfilling each of your design needs. </p><p> From Animation, Illustration, UI Design, 2D and 3D Assets, you can count on us to bring your ideas to life.</p></div>
+						</div>
+						<div class="col-md-3 col-6 services-cont" >
+							<img src="images/code2.png" alt="Boat sailing in the sea" width="100%">
+							<h4>Programming</h4>
+							<div class="services-desc"><p>The concept is done, so is the art and narrative, what now? </p><p>We'll build the game, of course. We'll take care of the whole process, Programming, UI and Level Design, Sound, Cutscenes, Animation... We got you!</p></div>
+						</div>
+						<div class="col-md-3 col-6 services-cont">
+							<img src="images/marketing.png" alt="Boat sailing in the sea" width="100%">
+							<div class="services-card">
+								<h4>Publishing</h4>
+								<div class="services-desc"><p>The game is ready. What now? There's still much to be done. </p><p>Communication, Marketing and Publishing, we help you do it all in a fun, creative way that best adequates to your product!</p></div>
+						</div>
+						</div>				
+					</div>
+				</div>
 				<div class="container container-fluid meet-team" id="team">
 					<h2 style="margin-bottom: 3%;">Team</h2>
 					<div class="row">
 						<div class="col-12 col-md-8 team-menu">
 							<div class="row">
-								<div class="col team1"><img src="images/t1.png" alt="logo seriously" class="team-prev team1" style="max-width: 100%;"></div>
-								<div class="col"><img src="images/t2.png" alt="logo seriously" class="team-prev team2" style="max-width: 100%;"></div>
-								<div class="col"><img src="images/t3.png" alt="logo seriously" class="team-prev team3" style="max-width: 100%"></div>
+								<div class="col team1" onclick="showteam1()"><img src="images/t1.png" alt="logo seriously" class="team-prev team1" style="max-width: 100%;"></div>
+								<div class="col" onclick="showteam2()"><img src="images/t2.png" alt="logo seriously" class="team-prev team2" style="max-width: 100%;"></div>
+								<div class="col" onclick="showteam3()"><img src="images/t3.png" alt="logo seriously" class="team-prev team3" style="max-width: 100%"></div>
 						</div>
 							<div class="row">
-								<div class="col"><img src="images/t4.png" alt="logo seriously" class="team-prev team4" style="max-width: 100%;"></div>
-								<div class="col"><img src="images/t5.png" alt="logo seriously" class="team-prev team5" style="max-width: 100%;"></div>
-								<div class="col"><img src="images/t6.png" alt="logo seriously" class="team-prev team6" style="max-width: 100%"></div>
+								<div class="col" onclick="showteam4()"><img src="images/t4.png" alt="logo seriously" class="team-prev team4" style="max-width: 100%;"></div>
+								<div class="col" onclick="showteam5()"><img src="images/t5.png" alt="logo seriously" class="team-prev team5" style="max-width: 100%;"></div>
+								<div class="col" onclick="showteam6()"><img src="images/t6.png" alt="logo seriously" class="team-prev team6" style="max-width: 100%"></div>
 							</div>
 							<div class="row">
-									<div class="col"><img src="images/t7.png" alt="logo seriously" class="team-prev team7" style="max-width: 100%;"></div>
-									<div class="col"><img src="images/t8.png" alt="logo seriously" class="team-prev team8" style="max-width: 100%;"></div>
-									<div class="col"><img src="images/t9.png" alt="logo seriously" class="team-prev team9" style="max-width: 100%"></div>
+									<div class="col" onclick="showteam7()"><img src="images/t7.png" alt="logo seriously" class="team-prev team7" style="max-width: 100%;"></div>
+									<div class="col" onclick="showteam8()"><img src="images/t8.png" alt="logo seriously" class="team-prev team8" style="max-width: 100%;"></div>
+									<div class="col" onclick="showteam9()"><img src="images/t9.png" alt="logo seriously" class="team-prev team9" style="max-width: 100%"></div>
 							</div>
 						</div>
 						<div class="team-mobile"><a href="team.html" class="btn btn-primary">Meet the Team</a></div>
@@ -176,7 +210,7 @@
 								<p>Duis pellentesque lorem vitae dictum mollis. Morbi imperdiet, diam id volutpat facilisis, enim turpis porttitor enim, id volutpat tortor nibh nec erat.</p></div>
 								<h4><b>What defines us?</b></h4>
 							</div>
-							<div class="dteam1" style="display: none;">
+							<div class="dteam1" id="dteam1"style="display: none;">
 								<div class="pic-team"><img src="images/t1.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Druid"</b></h4>
@@ -190,7 +224,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam2" style="display: none;">
+							<div class="dteam2" id="dteam2" style="display: none;">
 								<div class="pic-team"><img src="images/t2.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The ... "</b></h4>
@@ -204,7 +238,7 @@
 								</div>
 							</div>
 
-							<div class="dteam3" style="display: none;">
+							<div class="dteam3" id="dteam3" style="display: none;">
 								<div class="pic-team"><img src="images/t3.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Ranger "</b></h4>
@@ -218,7 +252,7 @@
 								</div>
 							</div>
 
-							<div class="dteam4" style="display: none;">
+							<div class="dteam4" id="dteam4" style="display: none;">
 								<div class="pic-team"><img src="images/t4.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The..."</b></h4>
@@ -232,7 +266,7 @@
 								</div>
 							</div>
 
-							<div class="dteam5" style="display: none;">
+							<div class="dteam5"id="dteam5" style="display: none;">
 								<div class="pic-team"><img src="images/t5.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Paladin"</b></h4>
@@ -246,7 +280,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam6" style="display: none;">
+							<div class="dteam6" id="dteam6" style="display: none;">
 								<div class="pic-team"><img src="images/t6.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Bard"</b></h4>
@@ -259,7 +293,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam7" style="display: none;">
+							<div class="dteam7" id="dteam7" style="display: none;">
 								<div class="pic-team"><img src="images/t7.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The ..."</b></h4>
@@ -273,7 +307,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam8" style="display: none;">
+							<div class="dteam8" id="dteam8" style="display: none;">
 								<div class="pic-team"><img src="images/t8.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Warlock"</b></h4>
@@ -287,7 +321,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam9" style="display: none;">
+							<div class="dteam9" id="dteam9" style="display: none;">
 								<div class="pic-team"><img src="images/t9.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Rogue"</b></h4>
