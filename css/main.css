@@ -225,6 +225,10 @@ body{min-height:200vh;}
     margin-right:2%;
 }
 
+.servicos .col-md-3{
+    width: 23.5%!important;
+}
+
 .servicos img{
     margin-top: 10%;
     background-color:#f8f9fa ;
@@ -528,7 +532,18 @@ padding:2%;
     .navbar .container-fluid.scrolled .navbar-collapse{
         background: white!important;
     }
+
 }
+
+
+/* Mobile Phones*/
+@media (max-width: 1059px) {
+    .servicos .col-md-3{
+        width: 48%!important;
+        margin-top: 3%;
+        }
+}   
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
