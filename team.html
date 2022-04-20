@@ -59,9 +59,7 @@
 				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 			});
 		});
-	</script>
-
-
+</script>
 </head>
 <body>
 		<header>
@@ -78,19 +76,16 @@
 							<a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="index.html#portfolio">Portfolio</a>
+							<a class="nav-link" href="#portfolio">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#portfolio">Serviços</a>
+							<a class="nav-link" href="#servicos">Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#team">Equipa</a>
+							<a class="nav-link" href="#team">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Sobre</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contactos</a>
+							<a class="nav-link" href="contactos.html">Contacts</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
@@ -99,32 +94,31 @@
 					</div>
 				</div>
 			</nav>
-            			<!-- Header -->
+			<!-- Header -->
 			<div class="banner container-fluid" style="margin: 0%; padding: 0%;">
 				<div class="banner-overlay">
 					<div class="jumbotron text-white jumbotron-image shadow-none" style="background-image: url(images/banner.webp);">
 						<div class="gradient-banner">
-						<div class="headline-text">
-							<!--<h2 class="mb-4">Seriously</h2> -->
-							<div class="col-8 projeto1-img" style="background-color: transparent;">
-								<img src="images/icons/logo.svg" alt="Seriously Logotipo" width="100%">
+							<div class="headline-text">
+								<!--<h2 class="mb-4">Seriously</h2> -->
+								<div class="col-8 projeto1-img" style="background-color: transparent;">
+									<img src="images/icons/logo.svg" alt="Seriously Logotipo" width="100%">
+								</div>
+								<p class="mb-4">Creating Serious Games in a not so Serious Way.</p>
+								<ul class="footer-social">
+									<li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+									<li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+									<li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+									<li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+								</ul>
+
 							</div>
-							<p class="mb-4">Creating Serious Games in a not so Serious Way.</p>
-							<a class="btn btn-primary">PROJETOS</a>
-						</div></div>
+						</div>
 					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					  <span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					  <span class="visually-hidden">Next</span>
-					</button>
-				  </div>
 				</div>
-    </header>
-    <div class="conteudo">
+			</div>
+		</header>
+		<div class="conteudo">
         <div class="container container-fluid meet-team" id="team">
             <h2 style="margin-bottom: 3%;">Team</h2>
             <div class="row">
@@ -146,14 +140,12 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 team-stat">
-                    <div class="team-geral">
+                    <div class="team-geral" id="team-geral">
                         <a href="index.html"><img src="images/icons/logo2.svg" alt="logo seriously" width="100%" class="logo1"></a>
                         <h4><b>Who are we?</b></h4>
-                        <div class="team-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis lacinia enim eget ornare.</p>
-                        <p>Duis pellentesque lorem vitae dictum mollis. Morbi imperdiet, diam id volutpat facilisis, enim turpis porttitor enim, id volutpat tortor nibh nec erat.</p></div>
-                        <h4><b>What do we do?</b></h4>
-                        <div class="team-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis lacinia enim eget ornare.</p>
-                        <p>Duis pellentesque lorem vitae dictum mollis. Morbi imperdiet, diam id volutpat facilisis, enim turpis porttitor enim, id volutpat tortor nibh nec erat.</p></div>
+                        <div class="team-text"><p>We are a multimedia company specialized in the creation and development of Serious Games. </p>
+                        <p>We have a multidisciplinary team of 2d and 3d artists, programmers and communication readily available to create your project from start to finish -  from the beggining of the ideation and conception phase, to the development and promotion of the final product.</p>
+                        <p><b>Get to know our team! Select the team member to find out its role and skills!</b></p></div>
                         <h4><b>What defines us?</b></h4>
                     </div>
                     <div class="dteam1" style="display: none;">
@@ -288,47 +280,49 @@
 </div>	
 </div>
 <div class="footer">
-        <div class="footer-content">
-            <div class="row">
-                <div class="logo-footer col-12 col-sm-3" style="background-color: transparent; margin-top: 0.6%;">
-                    <a href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="70%" class="logo1"></a>
-                </div>
-                <div class="footer-nav col-12 col-sm-9">
-                    <ul class="navbar navbar-expand-sm collapse.navbar-collapse">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Equipa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contactos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="footer-content">
+        <div class="row">
+            <div class="logo-footer col-12 col-sm-3" style="background-color: transparent;">
+                <a href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="70%" class="logo1"></a>
             </div>
-            <hr>
-            <div class="col-md-6">
-                            <ul class="footer-social">
-                                <li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
-                                <li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
-                                <li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
-                                <li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
-                            </ul>
-                    </div>
-                </div>
+            <div class="footer-nav col-12 col-sm-6">
+                <ul class="navbar navbar-expand-sm collapse.navbar-collapse">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col col-12 col-sm-3">
+                <ul class="footer-social">
+                    <li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+                    <li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+                    <li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+                    <li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+                </ul>
+    </div>
+        </div>
+        <hr>
+            <div class="row">
+            <div class="col copy">
+                <p>© 2022 - Seriously | Serious Games - LGP</p>
+            </div>
+            </div>
+        </div>
 </div>
 </body>
 </html>
