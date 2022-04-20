@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<!-- STYLE -->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+	<!-- Metas and SEO -->
+	<meta name="description" content="Creating Serious Games in a not so Serious Way. Tem uma ideia para um jogo educativo? Nós temos a solução. Com uma equipa multimédia de programadores, designers e narrativas, conseguimos tornar real a sua ideia para qualquer tipo de jogo educacional ou Serious Games. Contacte-nos em seriously.lgp@gmail.com." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Seriously LGP | Webdesign Department" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#0d7369">
+
+	<!-- Rel canonical for each page -->
+	<!--<link rel="canonical" href="https://seriously.pt/index.php" />-->
+	<title> Seriously - Creating Serious Games in a not so Seriously way. </title>
+
+	<!-- |Bootstrap 5| Bootstrap and JS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	
+	<!-- Import Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+	<link rel="manifest" href="images/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+	<!--Preload Stuff so it takes less time to load-->
+	<link rel="preload" href="css/main.css" as="style">
+	<link rel="preload" href="images/banner.webp" as="image">
+
+
+	<!-- Change color of Navbar on scroll-->
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $(".navbar .container-fluid");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			});
+		});
+</script>
+</head>
+<body>
+		<header>
+			<!-- Navbar -->
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent navbar-default">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="100" class="logo1"><img src="images/icons/logo2.svg" alt="logo seriously" width="100" class="logo2"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon  navbar-dark-toggler-icon-bg" style="color:white;"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#servicos">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#team">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactos.html">Contacts</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Header -->
+			<div class="banner container-fluid" style="margin: 0%; padding: 0%;">
+				<div class="banner-overlay">
+					<div class="jumbotron text-white jumbotron-image shadow-none" style="background-image: url(images/banner.webp);">
+						<div class="gradient-banner">
+							<div class="headline-text">
+								<!--<h2 class="mb-4">Seriously</h2> -->
+								<div class="col-8 projeto1-img" style="background-color: transparent;">
+									<img src="images/icons/logo.svg" alt="Seriously Logotipo" width="100%">
+								</div>
+								<p class="mb-4">Creating Serious Games in a not so Serious Way.</p>
+								<ul class="footer-social">
+									<li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+									<li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+									<li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+									<li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="conteudo">
+        <div class="row mapa">
+            <div class="col-12 contactos">
+                <h2>Contacts Us!</h2>
+                <h5>If you have any requests, contact us through our e-mail or social media!</h5>
+                <p>Rua Dr. Roberto Frias, 4200-465 Porto - Room B22</p>
+                <p><b>Room B22 |</b> Friday - 14H-18H</p>
+                <p><b>Email | </b>seriously.lgp@gmail.com</p>
+                <ul class="contactos-social">
+                    <li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+                    <li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+                    <li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+                    <li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+                </ul>
+            </div>
+            <div class="col-12 mapa map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.0091958575604!2d-8.597953618392754!3d41.17796663057449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246446d48922a3%3A0x8b1e4a0bcdacc840!2sFaculty%20of%20Engineering%20-%20University%20of%20Porto!5e0!3m2!1sen!2spt!4v1650487730854!5m2!1sen!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        </div>
+        <div class="footer">
+			<div class="footer-content">
+				<div class="row">
+					<div class="logo-footer col-12 col-sm-3" style="background-color: transparent;">
+						<a href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="70%" class="logo1"></a>
+					</div>
+					<div class="footer-nav col-12 col-sm-6">
+						<ul class="navbar navbar-expand-sm collapse.navbar-collapse">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#team">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contactos.html">Contacts</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col col-12 col-sm-3">
+						<ul class="footer-social">
+							<li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+							<li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+							<li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+							<li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+						</ul>
+			</div>
+				</div>
+				<hr>
+					<div class="row">
+					<div class="col copy">
+						<p>© 2022 - Seriously | Serious Games - LGP</p>
+					</div>
+					</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+    </html>
+
