@@ -181,16 +181,8 @@ body{min-height:200vh;}
 }
 
 .proj-desc{
-    display: none;
 }
 
-.projeto1-img:hover .proj-desc{
-    display: block;
-}
-
-.projeto1-img:hover .img-proj{
-    display: none;
-}
 
 .projeto1-desc{
     width: 100%;
@@ -205,6 +197,15 @@ body{min-height:200vh;}
 .titulo-proj {
     background-color: #dee2ec;
     box-shadow: 4px 4px #c7ccd7;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}    
+
+.projeto1-img{
+    margin: 0%;
 }
 
 /*------------------------PROJETO------------------------*/
@@ -246,7 +247,6 @@ body{min-height:200vh;}
 }
 
 .services-desc{
-    text-align: justify;
     padding-left: 2%;
 }
 
@@ -348,19 +348,26 @@ margin-bottom: 1.5%;
     padding: 2%;
     text-align: justify;
 }
+
+.vision-icons img{
+    float: right;
+}
+
+
  /*Character Desc shows on each pic*/
-
-.team-menu .team1:hover .team-geral{
-    display: none;
-}
-
-.team-menu .team1:hover .dteam1{
-    display: block;
-}
 
 .team-stat{
     margin-bottom:5%;
 }
+
+#dteam1, #dteam2, #dteam3, #dteam4, #dteam5, #dteam6, #dteam7, #dteam8, #dteam9{
+    display: none;
+}
+
+
+
+
+
 
 /*------------------------Footer------------------------*/
 .footer{
@@ -435,7 +442,25 @@ padding:2%;
     
 }
 
+.footer-social ul{
+    margin-left: 0%!important;
+    padding-left: 0%!important;
+    
+}
 
+.copy p{
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.copy{
+    margin: auto;
+}
+.logo-footer{
+    margin-top: 0.6%!important;
+}
 
 /*------------------------*MEDIA QUERIES*--------------------------------*/
 
@@ -493,7 +518,7 @@ padding:2%;
     }
 
     .logo-footer{
-        margin-top: 10%;
+        margin-top: 5%!important;
     }
 }
 
