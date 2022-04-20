@@ -1,3 +1,4 @@
+
 /*------------------------GERAL------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
@@ -180,7 +181,10 @@ body{min-height:200vh;}
     margin-top: 5%;
 }
 
-.proj-desc{
+.portfolio h2{
+    border-bottom: solid #b3dfd0 3px;
+    margin-bottom: 3%;
+    max-width: 17%;
 }
 
 
@@ -218,12 +222,17 @@ body{min-height:200vh;}
 .servicos h2{
     border-bottom: solid #b3dfd0 3px;
     margin-bottom: 3%;
+    max-width: 25%;
 }
 
 .services-cont{
     border-radius: 50px;
     background-color:#f8f9fa;
     margin-right:2%;
+}
+
+.services-cont:hover{
+    background-color:#f4f6fb;
 }
 
 .servicos .col-md-3{
@@ -242,7 +251,6 @@ body{min-height:200vh;}
 }
 
 .services-card{
-    background-color:#f8f9fa ;
     padding-top: 4%
 }
 
@@ -255,6 +263,13 @@ body{min-height:200vh;}
 .meet-team{
     margin-top: 5%;
 }
+
+.meet-team h2{
+    border-bottom: solid #b3dfd0 3px;
+    margin-bottom: 3%;
+    max-width: 12%;
+}
+
 .team-menu .row{
     --bs-gutter-x: 0.5rem!important;
     margin-bottom: 0.5rem;
@@ -365,9 +380,43 @@ margin-bottom: 1.5%;
 }
 
 
+/*-----------------------Contacts-----------------*/
+.contactos-social{
+    margin: auto;
+    margin-top: 1%;
+}
+
+.contactos-social li{
+		list-style: none;
+		margin: 0 10px 0 0;
+		display: inline-block;
+}
+
+.contactos-social ul{
+    text-align: right;
+}
 
 
+.contactos-social a:hover{
+    color:#38cebb!important;
+}
 
+.contactos-social a{
+    color:#0d7369!important;
+}
+
+.contactos h2{
+    border-bottom: solid #b3dfd0 3px;
+    margin-bottom: 3%;
+    max-width: 30%;
+}
+
+.contactos{
+    margin-bottom: 5%;
+}
+.map-responsive{
+    width:60%;
+    }
 
 /*------------------------Footer------------------------*/
 .footer{
@@ -376,33 +425,18 @@ margin-bottom: 1.5%;
     margin-bottom: 0%;
     padding-bottom: 0%;
     bottom: 0%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .footer-content{
 padding:2%;
 }
 
-.footer-nav{
-    padding-left: 0%!important;
-    margin-left: 0!important;
-    right: 0%;
-}
-
-.footer-nav ul{
-    padding-left: 0%!important;
-    margin-left: 0!important;
-    right: 0%;
-}
-
-.footer-heading{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
-
 .footer-social{
-    margin-left: 0%;
-    margin-top: 2%;
+    margin: auto;
+    margin-top: 1%;
+    margin-right: 0%;
+    right: 5%;
 }
 
 .footer-social li{
@@ -412,8 +446,7 @@ padding:2%;
 }
 
 .footer-social ul{
-    margin-left: 0%;
-    padding-left: 0%;
+    text-align: right;
 }
 
 .footer-content hr{
@@ -421,17 +454,6 @@ padding:2%;
     height: 3px!important;
 }
 
-.footer-social a:hover{
-    color: aquamarine;
-}
-
-.footer-nav ul li{
-    display: inline-block;
-}
-
-.footer-nav{
-    right: 0%;
-}
 
 .footer-social a:hover{
     color:#38cebb!important;
@@ -460,6 +482,11 @@ padding:2%;
 }
 .logo-footer{
     margin-top: 0.6%!important;
+}
+  
+
+.footer-nav ul{
+    list-style-type: none;
 }
 
 /*------------------------*MEDIA QUERIES*--------------------------------*/
@@ -497,7 +524,7 @@ padding:2%;
     }
 
     .logo-footer img{
-        max-width: 40%;
+        max-width: 30%;
     }
     
     .footer-content{
@@ -521,6 +548,7 @@ padding:2%;
         margin-top: 5%!important;
     }
 }
+
 
 /* Mobile Phones*/
 @media (max-width: 991.80px) {
