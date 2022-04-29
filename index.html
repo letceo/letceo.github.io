@@ -232,46 +232,46 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam2" id="dteam2">
+							<div class="dteam2" id="dteam2" onclick="showteam2()">
 								<div class="pic-team"><img src="images/t2.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
-									<h4><b>"The ... "</b></h4>
+									<h4><b>"The Ghost"</b></h4>
 									<h5>Luís Fernandes</h5>
 									<ul>
-										<li><b>Power-</b>Materialization of Objects</li>
+										<li><b>Power-</b>Multidimensional Warping</li>
 										<li><b>Weapon-</b>Maya</li>
 										<li><b>Shapeshifting</b></li>
 										<li><b>Tech Savvy</b></li>
 									</ul>
 								</div>
 							</div>
-							<button class="dteam3" id="dteam3">
+							<div class="dteam3" id="dteam3" onclick="showteam3()">
 								<div class="pic-team"><img src="images/t3.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
-									<h4><b>"The Ranger "</b></h4>
+									<h4><b>"The Ranger"</b></h4>
 									<h5>Sandra Pires</h5>
 									<ul>
-										<li><b>Power-</b>Materialization of Objects</li>
+										<li><b>Power- </b></li>
+										<li><b>Weapon-</b>Maya</li>
+										<li><b>Shapeshifting</b></li>
+										<li><b>Tech Savvy</b></li>
+									</ul>
+								</div>
+								</div>
+							<div class="dteam4" id="dteam4" onclick="showteam4()">
+								<div class="pic-team"><img src="images/t4.png" alt="logo seriously" class="team-prev"></div>
+								<div class="team-desc">
+									<h4><b>"The Mague"</b></h4>
+									<h5>Agostinho Martins</h5>
+									<ul>
+										<li><b>Power-</b>Replication</li>
 										<li><b>Weapon-</b>Maya</li>
 										<li><b>Shapeshifting</b></li>
 										<li><b>Tech Savvy</b></li>
 									</ul>
 								</div>
 							</div>
-							<div class="dteam4" id="dteam4">
-								<div class="pic-team"><img src="images/t4.png" alt="logo seriously" class="team-prev"></div>
-								<div class="team-desc">
-									<h4><b>"The..."</b></h4>
-									<h5>Agostinho Martins</h5>
-									<ul>
-										<li><b>Power-</b>Making everyone wanna kill themselves</li>
-										<li><b>Weapon-</b>Voice</li>
-										<li><b>Shapeshifting</b></li>
-										<li><b>Tech Savvy</b></li>
-									</ul>
-								</div>
-							</div>
-							<div class="dteam5"id="dteam5">
+							<div class="dteam5"id="dteam5" onclick="showteam5()">
 								<div class="pic-team"><img src="images/t5.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Paladin"</b></h4>
@@ -285,7 +285,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam6" id="dteam6">
+							<div class="dteam6" id="dteam6" onclick="showteam6()">
 								<div class="pic-team"><img src="images/t6.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Bard"</b></h4>
@@ -298,7 +298,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam7" id="dteam7">
+							<div class="dteam7" id="dteam7" onclick="showteam7()">
 								<div class="pic-team"><img src="images/t7.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The ..."</b></h4>
@@ -312,7 +312,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam8" id="dteam8">
+							<div class="dteam8" id="dteam8" onclick="showteam8()">
 								<div class="pic-team"><img src="images/t8.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Warlock"</b></h4>
@@ -326,7 +326,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="dteam9" id="dteam9">
+							<div class="dteam9" id="dteam9" onclick="showteam9()">
 								<div class="pic-team"><img src="images/t9.png" alt="logo seriously" class="team-prev"></div>
 								<div class="team-desc">
 									<h4><b>"The Rogue"</b></h4>
@@ -426,21 +426,233 @@
 			team7.style.display = "none";
 			team8.style.display = "none";
 			team9.style.display = "none";	
-	
-
+		}
+		else{
+			team1.style.display = "block";
+			teamgeral.style.display = "none";
+			team2.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
 		};
-
-
-		//team2
 
 		btn2.onclick = function showteam2() {
 		if (team2.style.display !== "none") {
 			team2.style.display = "block";
 			teamgeral.style.display = "none";
-	
-		} else {
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team2.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		};
+
+		btn3.onclick = function showteam3() {
+		if (team3.style.display !== "none") {
+			team3.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
 			team2.style.display = "none";
-			teamgeral.style.display = "block";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team3.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team2.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		};
+
+		btn4.onclick = function showteam4() {
+		if (team4.style.display !== "none") {
+			team4.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team2.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team4.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team2.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}	
+		};
+
+		btn5.onclick = function showteam5() {
+		if (team5.style.display !== "none") {
+			team5.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team2.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team5.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team2.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		};
+
+		btn6.onclick = function showteam6() {
+		if (team6.style.display !== "none") {
+			team6.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team2.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team6.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team2.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";
+		}
+		};
+
+		btn7.onclick = function showteam7() {
+		if (team7.style.display !== "none") {
+			team7.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team2.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team7.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team2.style.display = "none";
+			team8.style.display = "none";
+			team9.style.display = "none";	
+		}
+		};
+
+		btn8.onclick = function showteam8() {
+		if (team8.style.display !== "none") {
+			team8.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team2.style.display = "none";
+			team9.style.display = "none";	
+		}
+		else{
+			team8.style.display = "block";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team2.style.display = "none";
+			team9.style.display = "none";	
+		}
+		};
+		
+		btn9.onclick = function showteam9() {
+		if (team9.style.display !== "none") {
+			team9.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team2.style.display = "none";	
+		}
+		else{
+			team9.style.display = "block";
+			teamgeral.style.display = "none";
+			team1.style.display = "none";
+			team3.style.display = "none";
+			team4.style.display = "none";
+			team5.style.display = "none";
+			team6.style.display = "none";
+			team7.style.display = "none";
+			team8.style.display = "none";
+			team2.style.display = "none";
 		}
 		};
 	</script>
