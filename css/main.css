@@ -461,7 +461,7 @@ video {
     opacity:0.85;
     position: absolute;
     object-fit: cover;
-    height: 80%;
+    height: 78%;
     width: 100%;
   }
 
@@ -570,6 +570,7 @@ padding:2%;
         max-width: 90%;
         font-family: 'Poppins', sans-serif;
         padding-left: none;
+        margin-top: 12%!important;
     }
 
     .headline-text p{
