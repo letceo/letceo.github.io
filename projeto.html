@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<!-- STYLE -->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+	<!-- Metas and SEO -->
+	<meta name="description" content="Creating Serious Games in a not so Serious Way. Tem uma ideia para um jogo educativo? Nós temos a solução. Com uma equipa multimédia de programadores, designers e narrativas, conseguimos tornar real a sua ideia para qualquer tipo de jogo educacional ou Serious Games. Contacte-nos em seriously.lgp@gmail.com." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Seriously LGP | Webdesign Department" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#0d7369">
+
+	<!-- Rel canonical for each page -->
+	<!--<link rel="canonical" href="https://seriously.pt/index.php" />-->
+	<title> Seriously - Creating Serious Games in a not so Seriously way. </title>
+
+	<!-- |Bootstrap 5| Bootstrap and JS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	
+	<!-- Import Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+	<link rel="manifest" href="images/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+	<!--Preload Stuff so it takes less time to load-->
+	<link rel="preload" href="css/main.css" as="style">
+	<link rel="preload" href="images/banner.webp" as="image">
+
+
+	<!-- Change color of Navbar on scroll-->
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $(".navbar .container-fluid");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			});
+		});
+</script>
+</head>
+<body>
+		<header>
+			<!-- Navbar -->
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent navbar-default">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="100" class="logo1"><img src="images/icons/logo2.svg" alt="logo seriously" width="100" class="logo2"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon  navbar-dark-toggler-icon-bg" style="color:white;"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#servicos">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html#team">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactos.html">Contacts</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Header -->
+			<div class="banner container-fluid" style="margin: 0%; padding: 0%;">
+				<div class="banner-overlay">
+					<div class="jumbotron text-white jumbotron-image shadow-none proj-vid">
+                            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop";>
+                                <source src="images/boat.mp4" type="video/mp4">
+                            </video>
+						<div class="gradient-banner">
+							<div class="headline-text">
+								<!--<h2 class="mb-4">Seriously</h2> -->
+								<div class="col-8 projeto1-img" style="background-color: transparent;">
+									<img src="images/icons/logo.svg" alt="Seriously Logotipo" width="100%">
+								</div>
+								<p class="mb-4">A Viagem de D.Beatriz</p>
+                                <a class="btn btn-primary">DOWNLOAD DEMO</a>
+                                <p class="mb-4" style="color:#50c1b4; margin-top: 3%"><b>LAUNCH 24 JUNE</b></p>	
+								<ul class="footer-social">
+									<li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+									<li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 2rem; border-radius: 50%;"></i></a></li>
+									<li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+									<li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 2rem; border-radius: 50%;"></i></span></a></li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="conteudo" style="margin-top: 2%;" id="servicos">
+        <div class="container container-fluid project-page">
+            <h2 style="margin-bottom: 3%;">A Viagem de D.Beatriz</h2>
+            <div class="row">
+                <div class="col-12 col-md-8 team-menu">
+                    <img src="images/boat1.png" width="100%">
+                </div>
+                <div class="col-12 col-md-4 team-stat">
+                    <div class="team-geral" id="team-geral">
+                        <a href="index.html"><img src="images/icons/logo2.svg" alt="logo seriously" width="100%" class="logo1"></a>
+                        <h4><b>Who are we?</b></h4>
+                            <p> Lisbon, 1521 - The young Infanta D.Beatriz prepares for the journey of her life towards her union with Casa de Sabóia. </p>
+                            <p>Join D.Beatriz and embark on this 49-day trip. Retrace the steps of the princess and discover key moments of life at sea; look around the ship for her missing objects and enjoy the journey from Lisbon to Savoy through a first person point-and-click game. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+			
+            </div>
+        </div>
+        <div class="accordion .accordion-flush" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  When will the game be available? Where can I get it?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <p>The first full demo - a MVP will be available for public download on <b>June 24th</b>. It will be available for download on itch.io <a href=""><b>here</b></a>.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    What is the game gonna be about?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <p>O nosso projeto consiste na criação de um jogo para computador. O jogo irá retratar a viagem de D. Beatriz de Portugal, tendo como cenário a Nau de S. Catarina do Monte Sinai, onde aconteceu a viagem. O jogo será na categoria de point-and-click, uma vez que vai ser uma caça ao tesouro. </p>
+
+                    <p>A nau estará decorada com diferentes objetos remetentes à época e, que serão utilizados durante a viagem. Os objetos, em formato 3D, terão de ser descobertos e, posteriormente, desbloqueados pelo utilizador, que poderá ler uma breve descrição com o contexto em que surgem e qual a sua função. </p>       
+                    <p>Ao longo do jogo, haverá uma narrativa, que retrata três diferentes acontecimentos ao longo do percurso de D. Beatriz. Inicialmente, assistimos à nau atracada em Lisboa, antes de partir, com um jantar com a família real. Seguidamente, podemos analisar os comportamentos de D. Beatriz com as suas damas e fidalgos ao longo da viagem, vendo quais as rotinas e tradições da época. Por fim, quando chega ao seu destino, em França. Estes três acontecimentos vão ser intercalados com uma maior liberdade do utilizador em percorrer a nau, sendo que os três momentos da narrativa serão introduzidos com a descoberta de um objeto em questão. </p> 
+                    <p>O objetivo final do jogo é conseguir descobrir todos os objetos. </p>
+                  </div>
+                </div>
+              </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Who is it destined for?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Everyone.</strong><p>Estudantes e profissionais de cursos relacionados com artes aplicadas, história ou história das artes. Apreciadores de jogos históricos informativos e educacionais. Apreciadores de experiências histórias lúdicas e imersivas. Simultaneamente, escolas de ensino básico e secundário, assim como museus associados ao património artístico podem optar pelos projetos digitais, para uma experiência mais interativa e dinâmica.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  What makes it a Serious Game? Is it factual? Can I use it to teach?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                 <p>Para pessoas de diferentes faixas etárias, que tenham interesse na história portuguesa. A Viagem de D. Beatriz é um jogo para computador do tipo point-and-click, que permite explorar o trajeto da duquesa de Saboia de forma mais interativa. Ao invés da pesquisa nos materiais didáticos tradicionais, como os livros e exposições estáticas. O nosso produto permite uma maior dinâmica e atratividade na forma como trata o tema. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>	
+
+</div>
+<div class="footer">
+    <div class="footer-content">
+        <div class="row">
+            <div class="logo-footer col-12 col-sm-3" style="background-color: transparent;">
+                <a href="index.html"><img src="images/icons/logo.svg" alt="logo seriously" width="70%" class="logo1"></a>
+            </div>
+            <div class="footer-nav col-12 col-sm-6">
+                <ul class="navbar navbar-expand-sm collapse.navbar-collapse">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#servicos">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#team">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col col-12 col-sm-3">
+                <ul class="footer-social">
+                    <li class="ftco-animate"><a href="https://www.facebook.com/Seriously-104511082236081" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-facebook" aria-label="Facebook" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+                    <li class="ftco-animate"><a href="https://www.instagram.com/seriously.lgp/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="bi bi-instagram" aria-label="Instagram" style="font-size: 1.5rem; border-radius: 50%;"></i></a></li>
+                    <li class="ftco-animate"><a href="https://twitter.com/seriously_lgp" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="bi bi-twitter" aria-label="Twitter" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+                    <li class="ftco-animate"><a href="mailto:seriously.lgp@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"><i class="bi bi-envelope-fill" aria-label="Email" style="font-size: 1.5rem; border-radius: 50%;"></i></span></a></li>
+                </ul>
+    </div>
+        </div>
+        <hr>
+            <div class="row">
+            <div class="col copy">
+                <p>© 2022 - Seriously | Serious Games - LGP</p>
+            </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
+
+    
