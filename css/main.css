@@ -516,6 +516,10 @@ p .launch{
     background-size: contain;
 }
 
+.proj-img img{
+    display: none;
+}
+
 .proj-det{
     padding: 3%;
     margin-top:0%;
@@ -723,7 +727,12 @@ padding:2%;
     .servicos .col-md-3{
         width: 48%!important;
         margin-top: 3%;
-        }
+     }
+
+     .proj-img img{
+        display: block;
+        object-fit: contain;
+    }
 }   
 
 
