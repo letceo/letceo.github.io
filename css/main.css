@@ -150,7 +150,7 @@ body{min-height:200vh;}
     color:white;
     border-width: 2px;
     border-color: white;
-    background-color: #50c1b4;
+    background-color: #b29874;
 }
 
 .gradient-banner{
@@ -239,6 +239,12 @@ body{min-height:200vh;}
 
 .icon-prj:hover{
     color: #38cebb;
+}
+
+.project-page h2 {
+    border-bottom: solid #2a7c68 3px;
+    margin-bottom: 3%;
+    width: 60%;
 }
 /*------------------------SERVIÇOS------------------------*/
 .servicos{
@@ -476,8 +482,8 @@ video {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #2a7c68!important;
-    background-color: #e8f5f0!important;
+    color: black!important;
+    background-color: #ebe7de!important;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
@@ -499,6 +505,43 @@ p .launch{
     -webkit-text-stroke-color: white;
 }
 
+
+.project-page .team-stat {
+    background-color: #ece8de;
+}
+
+.proj-img{
+    border-top:solid #b29874 12px;
+    border-left:solid #b29874 12px;
+    width: auto;
+    background-size: contain;
+}
+
+.proj-det{
+    padding: 3%;
+    margin-top:0%;
+    background-color: #ebe7de;
+    border-top:solid #b29874 12px;
+}
+
+.proj-det p {
+    padding: 3%;
+    padding-top: 0.5%;
+}
+
+.proj-det h3 {
+    padding: 3%;
+    padding-top: 0.5%;
+}
+
+.faqs h2 {
+
+}
+
+.faqs{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
 /*------------------------Footer------------------------*/
 .footer{
     background-color:#0d7369;
