@@ -513,8 +513,9 @@ p .launch{
 .proj-img{
     border-top:solid #b29874 12px;
     border-left:solid #b29874 12px;
-    width: auto;
+    width: 100%;
     background-size: contain;
+
 }
 
 .proj-det{
