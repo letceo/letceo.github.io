@@ -514,6 +514,7 @@ p .launch{
     border-top:solid #b29874 12px;
     border-left:solid #b29874 12px;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .proj-img img{
@@ -545,6 +546,15 @@ p .launch{
     margin-top: 5%;
     margin-bottom: 3%;
 }
+
+.proj-imgmb{
+    display: none;
+}
+
+.proj-imgdk{
+    display: block;
+}
+
 /*------------------------Footer------------------------*/
 .footer{
     background-color:#0d7369;
@@ -732,6 +742,23 @@ padding:2%;
      .proj-img img{
         display: block;
         object-fit: contain;
+        width: 100%;
+        opacity: 0%;
+    }
+
+    .proj-img img{
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        opacity: 0%;
+    }
+
+    .proj-imgmb{
+        display: block;
+    }
+
+    .proj-imgdk{
+        display: none;
     }
 }   
 
