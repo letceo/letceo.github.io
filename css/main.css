@@ -570,11 +570,11 @@ p .launch{
     display: none;
 }
 
-.proj-vid .footer-social a:hover{
+.proj-banner .footer-social a:hover{
     color:#109e90!important;
 }
 
-.proj-vid .footer-social a{
+.proj-banner .footer-social a{
     color:#0c7369!important;
     
 }
@@ -823,6 +823,8 @@ padding:2%;
     .logo-footer img{
         width: 100%;
     }
+
+    
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -841,18 +843,16 @@ padding:2%;
 
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1300px) {  
-    video {
-        height: 62%;
-        width: 100%;
-      }
+@media (max-width: 1284px) {  
+    .logo-footer img{
+        max-width: 70%;
+    }  
 
+}
 
-      .banner-overlay .proj-vid{
-        display: block;
-        width: 100%;
-        height:40em;
-    }
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1285px) {  
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
