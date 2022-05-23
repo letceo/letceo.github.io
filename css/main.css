@@ -586,7 +586,11 @@ p .launch{
     margin-top: 0%;
 }
 
-
+.project-desc{
+    height: 100%;
+    margin-bottom:2%;
+    margin-top: 2%;
+}
 /*------------------------Footer------------------------*/
 .footer{
     background-color:#0d7369;
