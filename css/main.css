@@ -162,7 +162,7 @@ body{min-height:200vh;}
 }
 
 .banner-overlay .btn-primary:hover{
-    background-color: #2a7c68;
+    background-color:#109e90!important;
     border-color: white;
 }
 
@@ -414,6 +414,14 @@ margin-bottom: 1.5%;
     display: none;
 }
 
+#steam1, #steam2, #steam3, #steam4, #steam5, #steam6, #steam7, #steam8, #steam9{
+    display: none;
+}
+
+.team-page .team-index{
+    display: block;
+}
+
 
 /*-----------------------Contacts---------------------*/
 .contactos-social{
@@ -471,6 +479,12 @@ video {
     width: 100%;
   }
 
+
+  .banner-overlay .proj-vid{
+    display: block;
+    width: 100%;
+    height:36em!important;
+}
 
 .gradient-banner{
     z-index: 2!important;
@@ -547,13 +561,31 @@ p .launch{
     margin-bottom: 3%;
 }
 
-.proj-imgmb{
-    display: none;
-}
 
 .proj-imgdk{
     display: block;
 }
+
+.proj-imgbg{
+    display: none;
+}
+
+.proj-vid .footer-social a:hover{
+    color:#109e90!important;
+}
+
+.proj-vid .footer-social a{
+    color:#0c7369!important;
+    
+}
+
+
+
+
+.proj-vid .footer-social{
+    margin-top: 0%;
+}
+
 
 /*------------------------Footer------------------------*/
 .footer{
@@ -729,6 +761,14 @@ padding:2%;
         margin: 0%;
         font-size: 2em;
     }
+
+    .proj-imgdk{
+        display: none;
+    }
+    
+    .proj-imgbg{
+        display: block;
+    }
 }
 
 
@@ -799,10 +839,27 @@ padding:2%;
     }  
 }
 
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1300px) {  
+    video {
+        height: 62%;
+        width: 100%;
+      }
+
+
+      .banner-overlay .proj-vid{
+        display: block;
+        width: 100%;
+        height:40em;
+    }
+}
+
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
     .logo-footer img{
         max-width: 70%;
     }
+
 }
     
