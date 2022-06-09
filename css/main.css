@@ -202,7 +202,6 @@ body{min-height:200vh;}
     font-size: 2.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    width: 70%!important;
 }
 
 .titulo-proj {
@@ -302,7 +301,7 @@ body{min-height:200vh;}
 .meet-team h2{
     border-bottom: solid #b3dfd0 3px;
     margin-bottom: 3%;
-    max-width: 12%;
+    max-width: 20%;
 }
 
 .team-menu .row{
@@ -311,7 +310,7 @@ body{min-height:200vh;}
 }
 
 .team-prev{
-    border: solid #dee2ec 5px!important ;
+    border: solid #dee2ec 5px ;
 }
 
 .team-prev:hover{
@@ -403,6 +402,23 @@ margin-bottom: 1.5%;
     float: right;
 }
 
+
+.meet-team .footer-social a:hover{
+    color:#109e90!important;
+}
+
+.meet-team .footer-social a{
+    color:#0c7369!important;
+    
+}
+
+ul .footer-social{
+    padding: 0%;
+}
+
+.pic-team .team-geral{
+    background-color:#dee2ec;;
+}
 
  /*Character Desc shows on each pic*/
 
@@ -720,6 +736,15 @@ padding:2%;
 
     .logo-footer{
         margin-top: 5%!important;
+    }
+
+    .proj-frame {
+        background: transparent;
+        padding: 0%;
+    }
+
+    .proj-frame .carouselExampleIndicators{
+        padding: 0%;
     }
 }
 
